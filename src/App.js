@@ -31,6 +31,22 @@ class App extends Component {
     this.randomizeCharacters();
   }
 
+  checkClicked = id => {
+    const clickCheck = this.state.clicked.filter(click => click === id);
+    console.log(clickCheck);
+  
+    if (clickCheck.length === 0) {
+      this.clickedCard(id);
+      this.setState({score: this.state.score + 1});
+      this.setState({message: "Correct Guess!"});
+    
+      if(this.state.score >= this.state.topScore) {
+        this.setState({topScore: this.state.score + 1});
+      }
+  
+    } 
+  }
+
 
   render() {
     return (
