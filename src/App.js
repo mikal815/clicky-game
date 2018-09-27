@@ -26,6 +26,9 @@ class App extends Component {
         message={this.state.message}
       />
       <Banner />
+      <GameBoard>
+          
+      </GameBoard>
       
     </div>
   );
