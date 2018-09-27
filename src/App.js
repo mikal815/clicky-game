@@ -14,6 +14,11 @@ class App extends Component {
     message: ""
 }
 
+randomizeCharacters = () => {
+  characters.sort((a,b) => { return 0.5 - Math.random()});
+  this.setState({characters: characters});
+}
+
 
 
 
