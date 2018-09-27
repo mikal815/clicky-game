@@ -44,7 +44,16 @@ class App extends Component {
         this.setState({topScore: this.state.score + 1});
       }
   
-    } 
+    } else {
+      this.setState({topScore: this.state.score});
+      this.setState({score: 0});
+      this.setState({clicked: []});
+      this.setState({message: "Game Over!"})
+    }
+  
+    if (this.state.clicked.length === 12) {
+      this.setState({message: "You win!"})
+    }
   }
 
 
