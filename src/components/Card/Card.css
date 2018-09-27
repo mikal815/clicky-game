@@ -1,0 +1,13 @@
+.character {
+    background: #fff;
+    border-radius: 2px;
+    height: 15rem;
+    margin: 1rem;
+    position: relative;
+    width: 15rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    float: left;
+}
+.character-image {
+    width: 100%;
+}
