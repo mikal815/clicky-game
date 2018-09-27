@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import TopBar from "./components/TopBar";
+import Banner from "./components/Banner";
 import characters from "./characters.json"
 import './App.css';
 
@@ -24,6 +25,7 @@ class App extends Component {
         topScore={this.state.topScore}
         message={this.state.message}
       />
+      <Banner />
       
     </div>
   );
