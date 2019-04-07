@@ -1,63 +1,63 @@
 [
     {
         "id": 1,
-        "name": "homer",
-        "image": "/assets/images/homer.jpg"  
+        "name": "1",
+        "image": "/assets/images/1c.png"  
     },
     {
         "id": 2,
-        "name": "bart",
-        "image": "/assets/images/bart.jpg"  
+        "name": "2",
+        "image": "/assets/images/2c.png"  
     },
     {
         "id": 3,
-        "name": "lisa",
-        "image": "/assets/images/lisa.jpg"  
+        "name": "3",
+        "image": "/assets/images/3c.png"  
     },
     {
         "id": 4,
-        "name": "marge",
-        "image": "/assets/images/marge.jpg"  
+        "name": "4",
+        "image": "/assets/images/4c.jpg"  
     },
     {
         "id": 5,
-        "name": "moe",
-        "image": "/assets/images/moe.jpg"  
+        "name": "5",
+        "image": "/assets/images/5c.jpg"  
     },
     {
         "id": 6,
-        "name": "nelson",
-        "image": "/assets/images/nelson.jpg"  
+        "name": "6",
+        "image": "/assets/images/6c.png"  
     },
     {
         "id": 7,
-        "name": "milhouse",
-        "image": "/assets/images/milhouse.jpg"  
+        "name": "7",
+        "image": "/assets/images/7c.jpg"  
     },
     {
         "id": 8,
-        "name": "snake",
-        "image": "/assets/images/snake.jpg"  
+        "name": "8",
+        "image": "/assets/images/8c.jpg"  
     },
     {
         "id": 9,
-        "name": "ralph",
-        "image": "/assets/images/ralph.jpg"  
+        "name": "9",
+        "image": "/assets/images/9c.jpg"  
     },
     {
         "id": 10,
-        "name": "maggie",
-        "image": "/assets/images/maggie.jpg"  
+        "name": "10",
+        "image": "/assets/images/10c.jpg"  
     },
     {
         "id": 11,
-        "name": "flanders",
-        "image": "/assets/images/flanders.jpg"  
+        "name": "11",
+        "image": "/assets/images/11c.jpg"  
     },
     {
         "id": 12,
-        "name": "krusty",
-        "image": "/assets/images/krusty.jpg"  
+        "name": "12",
+        "image": "/assets/images/12c.png"  
     }
     
 ]
